@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="create-acct">Create Account</h1>
+        </header>
+        <div class="middle-body">
+            <form method="post" class="full-form" action="#">
+                <div class="form-items">
+                    <h3 class="user">Username</h3>
+
+                    <div class="box-parent">
+                        <div class="input-icon">
+                            <input class="input-class" id="username" type="text" placeholder="Enter Username">
+                            <div>
+                            <i class="fa-circle-check fa-solid icon-success"></i>
+                            <i class="fa-circle-exclamation fa-solid icon-error"></i>
+                            </div>
+                        </div>
+                        <div class="msg">Username cannot be blank</div>
+                    </div>
+
+                </div>
+
+            <div class="form-items">
+                    <h3 class="user">Email</h3>
+
+                <div class="box-parent">
+                    <div class="input-icon">
+                        <input class="input-class" id="email" type="email" placeholder="Enter Email">
+                        <div>
+                            <i class="fa-circle-check fa-solid icon-success"></i>
+                            <i class="fa-circle-exclamation fa-solid icon-error"></i>
+                        </div>
+                   </div>
+                   <div class="msg">Email cannot be blank</div>
+                </div>
+                </div>
+
+
+            <div class="form-items">
+                    <h3 class="user">Password</h3>
+                <div class="box-parent">
+                    <div class="input-icon">
+                        <input class="input-class" id="password" type="password" placeholder="Input Password">
+                        <div>
+                            <i class="fa-circle-check fa-solid icon-success"></i>
+                            <i class="fa-circle-exclamation fa-solid icon-error"></i>
+                        </div>
+                   </div>
+                   <div class="msg">Password cannot be blank</div>
+                </div>
+            </div>
+
+            <div class="form-items">
+                <h3 class="user">Password Check</h3>
+            <div class="box-parent">
+                <div class="input-icon">
+                    <input class="input-class" id="password-check" type="password" placeholder="Confirm Password">
+                    <div>
+                        <i class="fa-circle-check fa-solid icon-success"></i>
+                        <i class="fa-circle-exclamation fa-solid icon-error"></i>
+                    </div>
+               </div>
+               <div class="msg">Password2 cannot be blank</div>
+            </div>
+        </div>
+
+                
+                <input class="btn" type="submit" value="submit">
+            </form>
+            
+        </div>
+
+    </div>
+    <script src="form.js"></script>
+    <script src="https://kit.fontawesome.com/5c47915741.js" crossorigin="anonymous"></script>
+</body>
+</html>

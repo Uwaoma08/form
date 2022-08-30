@@ -1,0 +1,124 @@
+$black-color: #000;
+$purple-color: rgb(189, 130, 245);
+$dark-puple: purple;
+$white-color: #fff;
+$off-white: rgb(212, 226, 238);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color:$purple-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 50%;
+}
+
+.header{
+    background-color:$off-white ;
+
+    .create-acct {
+        padding: 20px;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+} //header end
+
+.Middle-body{
+
+    .user{
+        margin: 20px 0;
+    }
+
+    form{
+        background-color: #fff;
+        padding: 10px 40px;
+        margin-bottom: 20px;
+      
+    }
+}
+ 
+        .input-icon{
+            display: flex;
+            border: 2px #f4f4f4 solid;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .fa-solid {
+            align-self: center;
+            padding: 5px;
+
+        }
+
+
+
+        input {
+            width: 100%;
+            height: 36px;
+            border: none;
+            outline-width: 0;
+        }
+
+     
+.fa-solid {
+    align-self: center;
+    padding: 5px;
+}
+
+.msg{
+    color: red;
+    display: none;
+}
+
+.btn{
+    width: 100%;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    background-color: rgb(146, 33, 252);
+    color: #fff;
+    font-size: 20px;
+}
+
+/* has error */
+.has-error {
+    .input-icon{
+        border-color: red;
+    }
+    .icon-error{
+        display: block !important;
+    }
+    .msg{
+        display: block;
+    }
+}
+
+/* has success */
+
+.has-success {
+    .input-icon{
+        border-color: green;
+    }
+    .icon-success {
+        display: block !important;
+    }
+}
+
+
+.fa-circle-exclamation{
+    color: red;
+}
+
+.fa-circle-check{
+    color: green;
+}
+
